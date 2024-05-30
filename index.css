@@ -1,0 +1,1004 @@
+body.darkmode{
+    background-color: black;
+    color: white;
+}
+#contact1{
+    background-color: black;
+    color: white;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.title p {
+    padding-right: 40px;
+}
+
+#img-row1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#img-row1 div img {
+    width: 300px;
+    height: 370px;
+    padding-right: 15px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+#img-row1 div p i {
+    color: gold;
+}
+
+#hover1 {
+    padding-right: 20px;
+    height: 30px;
+    display: none;
+    position: absolute;
+    top: 350px;
+    left: 145px;
+    background-color: #ffff;
+    border-radius: 10px;
+    animation-duration: 0.25s;
+    animation-name: hover1;
+}
+
+#hover1 i {
+    margin-top: 5px;
+    color: rgb(105, 105, 105);
+    padding-left: 15px;
+}
+
+#img1:hover #hover1 {
+    display: block;
+
+}
+
+@keyframes hover1 {
+    from {
+        position: absolute;
+        top: 400px;
+        left: 145px;
+    }
+
+    to {
+        position: absolute;
+        top: 350px;
+        left: 145px;
+    }
+}
+
+#hover2 {
+    padding-right: 20px;
+    display: none;
+    height: 30px;
+    position: absolute;
+    top: 350px;
+    left: 450px;
+    background-color: #ffff;
+    border-radius: 10px;
+    animation-duration: 0.25s;
+    animation-name: hover2;
+}
+
+#hover2 i {
+    padding-left: 15px;
+    margin-top: 5px;
+    color: rgb(105, 105, 105);
+}
+
+#img2:hover #hover2 {
+    display: block;
+}
+
+@keyframes hover2 {
+    from {
+        position: absolute;
+        top: 400px;
+        left: 450px;
+    }
+
+    to {
+        position: absolute;
+        top: 350px;
+        left: 450px;
+    }
+}
+
+#hover3 {
+    padding-right: 20px;
+    display: none;
+    height: 30px;
+    position: absolute;
+    top: 350px;
+    left: 745px;
+    background-color: #ffff;
+    border-radius: 10px;
+    animation-duration: 0.25s;
+    animation-name: hover3;
+}
+
+#hover3 i {
+    padding-left: 15px;
+    margin-top: 5px;
+    color: rgb(105, 105, 105);
+}
+
+#img3:hover #hover3 {
+    display: block;
+}
+
+@keyframes hover3 {
+    from {
+        position: absolute;
+        top: 400px;
+        left: 745px;
+    }
+
+    to {
+        position: absolute;
+        top: 350px;
+        left: 745px;
+    }
+}
+
+#hover4 {
+    padding-right: 20px;
+    display: none;
+    height: 30px;
+    position: absolute;
+    top: 350px;
+    left: 1045px;
+    background-color: #ffff;
+    border-radius: 10px;
+    animation-duration: 0.25s;
+    animation-name: hover4;
+}
+
+#hover4 i {
+    padding-left: 15px;
+    margin-top: 5px;
+    color: rgb(105, 105, 105);
+}
+
+#img4:hover #hover4 {
+    display: block;
+}
+
+@keyframes hover4 {
+    from {
+        position: absolute;
+        top: 400px;
+        left: 1045px;
+    }
+
+    to {
+        position: absolute;
+        top: 350px;
+        left: 1045px;
+    }
+}
+
+#hover5 {
+    padding-right: 20px;
+    display: none;
+    height: 30px;
+    position: absolute;
+    top: 810px;
+    left: 145px;
+    background-color: #ffff;
+    border-radius: 10px;
+    animation-duration: 0.25s;
+    animation-name: hover5;
+}
+
+#hover5 i {
+    padding-left: 15px;
+    margin-top: 5px;
+    color: rgb(105, 105, 105);
+}
+
+#img5:hover #hover5 {
+    display: block;
+}
+
+@keyframes hover5 {
+    from {
+        position: absolute;
+        top: 850px;
+        left: 145px;
+    }
+
+    to {
+        position: absolute;
+        top: 810px;
+        left: 145px;
+    }
+}
+
+#hover6 {
+    padding-right: 20px;
+    display: none;
+    height: 30px;
+    position: absolute;
+    top: 810px;
+    left: 450px;
+    background-color: #ffff;
+    border-radius: 10px;
+    animation-duration: 0.25s;
+    animation-name: hover6;
+}
+
+#hover6 i {
+    padding-left: 15px;
+    margin-top: 5px;
+    color: rgb(105, 105, 105);
+}
+
+#img6:hover #hover6 {
+    display: block;
+}
+
+@keyframes hover6 {
+    from {
+        position: absolute;
+        top: 850px;
+        left: 450px;
+    }
+
+    to {
+        position: absolute;
+        top: 810px;
+        left: 450px;
+    }
+}
+
+#hover7 {
+    padding-right: 20px;
+    display: none;
+    height: 30px;
+    position: absolute;
+    top: 810px;
+    left: 745px;
+    background-color: #ffff;
+    border-radius: 10px;
+    animation-duration: 0.25s;
+    animation-name: hover7;
+}
+
+#hover7 i {
+    padding-left: 15px;
+    margin-top: 5px;
+    color: rgb(105, 105, 105);
+}
+
+#img7:hover #hover7 {
+    display: block;
+}
+
+@keyframes hover7 {
+    from {
+        position: absolute;
+        top: 850px;
+        left: 745px;
+    }
+
+    to {
+        position: absolute;
+        top: 810px;
+        left: 745px;
+    }
+}
+
+#hover8 {
+    padding-right: 20px;
+    display: none;
+    height: 30px;
+    position: absolute;
+    top: 810px;
+    left: 1045px;
+    background-color: #ffff;
+    border-radius: 10px;
+    animation-duration: 0.25s;
+    animation-name: hover8;
+}
+
+#hover8 i {
+    padding-left: 15px;
+    margin-top: 5px;
+    color: rgb(105, 105, 105);
+}
+
+#img8:hover #hover8 {
+    display: block;
+}
+
+@keyframes hover8 {
+    from {
+        position: absolute;
+        top: 850px;
+        left: 1045px;
+    }
+
+    to {
+        position: absolute;
+        top: 810px;
+        left: 1045px;
+    }
+}
+#hello{
+    background-color: #eeee;
+
+}
+#hover1 i{
+    
+    
+}
+#set {
+    position: fixed;
+    top: 340px;
+    left: 1310px;
+    border: solid #aaaa;
+    border-radius: 10px;
+    width: 38.55px;
+    padding: 10px;
+    height: 18px;
+    background-color: #aaaa;
+}
+
+#set i {
+    animation-duration: 1s;
+    animation-name: anime;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    transform: rotate(360deg);
+}
+
+@keyframes anime {
+    from {
+        transform: rotate(-360deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#set1 {
+    position: fixed;
+    top: 400px;
+    left: 1310px;
+    border: solid #aaaa;
+    border-radius: 10px;
+    background-color: #aaaa;
+    font-size: xx-small;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 8px;
+    /* width: 38.55px; */
+    /* height: 35px;  */
+}
+#body{
+    background-color: black;
+    color: white;
+}
+#content1 {
+    display: flex;
+    justify-content: space-around;
+    /* background-color: #eeee; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#content1-1 {
+    margin-left: -125px;
+
+}
+
+#content1-1 p {
+    font-size: small;
+}
+
+#content1-2 {
+    margin-right: -110px;
+}
+
+#content1-2 input {
+    width: 300px;
+    height: 35px;
+    font-size: small;
+    color: #6d7e87;
+}
+
+#content1-2 button {
+    height: 35px;
+    color: white;
+    border-color: #6d7e87;
+    background-color: #6d7e87;
+}
+
+#full {
+    display: flex;
+    justify-content: space-around;
+    /* background-color: #eeee; */
+    padding-top: 80px;
+    border-top: 1px solid;
+    border-color: #777777;
+}
+
+#full1-1 {
+    width: 390px;
+    font-size: small;
+    padding-left: 20px;
+}
+
+#full1-1 P {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #777777;
+}
+
+#full1-1 i {
+    padding-right: 50px;
+}
+
+#full1-2 ol li {
+    list-style: none;
+    padding: 5px;
+    font-size: small;
+    color: #777777;
+}
+
+#full1-3 ol li {
+    list-style: none;
+    padding: 5px;
+    font-size: small;
+    color: #777777;
+}
+
+#full1-4 ol li {
+    list-style: none;
+    padding: 5px;
+    font-size: small;
+    width: 230px;
+    color: #777777;
+
+}
+
+#full2 {
+    /* background-color: #eeee; */
+    display: flex;
+    padding-top: 70px;
+}
+
+#full2 p {
+    margin-left: 60px;
+}
+
+#full2 div {
+    margin-left: 780px;
+}
+
+@media screen and (max-width:1280px) {
+    .title p {
+        padding-right: 30px;
+    }
+
+    #img-row1 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #img-row1 div img {
+        width: 245px;
+        height: 300px;
+        padding-top: 10px;
+        cursor: pointer;
+    }
+
+    #content1 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #content1-1 {
+        width: 350px;
+        margin-left: 40px;
+    }
+
+    #content1-2 input {
+        width: 180px;
+    }
+
+    #content1-2 {
+        margin-right: 20px;
+   
+    }
+
+    #full {
+        display: flex;
+        flex-direction: row;
+        padding-right: 30px;
+    }
+
+    #full2 {
+        display:flex;
+        flex-direction:row;
+        justify-content: space-evenly;
+    }
+    #full2 div img{
+         margin-left: -80px;
+    }
+     
+}
+
+@media screen and (max-width:912px) {
+    .title p {
+        padding-right: 30px;
+    }
+
+    #img-row1 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #img-row1 div img {
+        width: 220px;
+        height: 280px;
+        padding-top: 10px;
+        cursor: pointer;
+    }
+
+    #content1 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #content1-1 {
+        width: 350px;
+        margin-left: 40px;
+    }
+
+    #content1-2 input {
+        width: 180px;
+    }
+
+    #content1-2 {
+        margin-right: 20px;
+    }
+
+    #full {
+        display: flex;
+        flex-direction: row;
+        padding-right: 30px;
+    }
+
+    #full1-1 i {
+        padding-right: 20px;
+    }
+
+}
+
+@media screen and (max-width:853px) {
+    .title p {
+        padding-right: 30px;
+    }
+
+    #img-row1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #img-row1 div img {
+        width: 500px;
+        height: 650px;
+        padding-top: 10px;
+        cursor: pointer;
+    }
+
+    #content1 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #content1-1 {
+        width: 350px;
+        margin-left: 40px;
+    }
+
+    #content1-2 input {
+        width: 180px;
+    }
+
+    #content1-2 {
+        margin-right: 20px;
+    }
+
+    #full {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-right: 30px;
+
+    }
+
+    #full div p {
+        font-size: large;
+    }
+
+    #full div ol li {
+        width: 800px;
+        font-size: large;
+    }
+
+    #full2 {
+        background-color: #eeee;
+        display: flex;
+        flex-direction: row;
+        padding-top: 70px;
+    }
+
+    #full2 p {
+        margin-left: 30px;
+    }
+
+    #full2 div {
+        margin-left: 250px;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .title p {
+        padding-right: 10px;
+    }
+
+    #img-row1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #img-row1 div img {
+        width: 400px;
+        height: 470px;
+        padding-right: 15px;
+        padding-top: 10px;
+    }
+
+    #content1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #content1-1 {
+        width: 300px;
+        margin-left: 120px;
+    }
+
+    #content1-2 input {
+        width: 200px;
+        margin-left: 120px;
+    }
+
+    #full {
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+    #full1-1 P {
+        width: 300px;
+    }
+
+    #full2 {
+        background-color: #eeee;
+        display: flex;
+        flex-direction: column;
+        padding-top: 70px;
+    }
+
+    #full1-1 {
+        padding-left: 50px;
+    }
+
+    #full div ol li {
+        width: 300px;
+    }
+
+    #full2 {
+        display: flex;
+        flex-direction: column;
+        padding-left: 80px;
+    }
+
+    #full2 div {
+        margin-left: 80px;
+    }
+
+    #full2 div img {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .title p {
+        padding-right: 10px;
+    }
+
+    #img-row1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #img-row1 div img {
+        width: 300px;
+        height: 370px;
+        padding-right: 15px;
+        padding-top: 10px;
+    }
+
+    #content1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #content1-1 {
+        width: 300px;
+        margin-left: 40px;
+    }
+
+    #content1-2 input {
+        width: 200px;
+        margin-left: 40px;
+    }
+
+    #full {
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+    #full1-1 P {
+        width: 300px;
+    }
+
+    #full2 {
+        background-color: #eeee;
+        display: flex;
+        flex-direction: column;
+        padding-top: 70px;
+    }
+
+    #full {
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+    #full1-1 {
+        padding-left: 50px;
+    }
+
+    #full div ol li {
+        width: 300px;
+    }
+
+    #full2 {
+        background-color: #eeee;
+        display: flex;
+        flex-direction: column;
+        /* padding-top: 70px; */
+        padding-left: 20px;
+    }
+
+    #full2 div {
+        margin-left: 80px;
+    }
+
+    #full2 div img {
+        margin-left: 10px;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    .title p {
+        padding-right: 10px;
+    }
+
+    #img-row1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #img-row1 div img {
+        width: 300px;
+        height: 370px;
+        padding-top: 10px;
+    }
+
+    #content1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #content1-1 {
+        width: 300px;
+        margin-left: 40px;
+    }
+
+    #content1-2 input {
+        width: 200px;
+        margin-left: 40px;
+    }
+
+    #full {
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+    #full1-1 {
+        padding-left: 50px;
+    }
+
+    #full2 {
+        background-color: #eeee;
+        display: flex;
+        flex-direction: column;
+        padding-top: 70px;
+    }
+
+    #full2 p {
+        margin-left: 20px;
+    }
+
+    #full2 div {
+        margin-left: 80px;
+    }
+
+    #full2 div img {
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 344px) {
+    .title p {
+        margin-left: 40px;
+    }
+
+    #img-row1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #img-row1 div img {
+        width: 300px;
+        height: 370px;
+        padding-top: 10px;
+    }
+
+    #content1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #content1-1 {
+        width: 300px;
+        margin-left: 40px;
+        
+    }
+    #content1-1  p{
+        font-size: medium;
+    }
+
+    #content1-2 input {
+        width: 170px;
+        margin-left: 40px;
+    }
+
+    #full {
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+    #full1-1 {
+        padding-left: 50px;
+    }
+
+    #full2 {
+        background-color: #eeee;
+        display: flex;
+        flex-direction: column;
+        padding-top: 70px;
+    }
+
+    #full2 p {
+        margin-left: 20px;
+    }
+
+    #full2 div {
+        margin-left: 80px;
+    }
+
+    #full2 div img {
+        margin-left: 5px;
+    }
+}
+
+
+@media screen and (max-width:280px) {
+    .title {
+        padding-left: 30px;
+    }
+
+    #img-row1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #img-row1 div img {
+        width: 230px;
+        height: 270px;
+        padding-top: 10px;
+    }
+
+    #content1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #content1-1 {
+        width: 200px;
+        margin-left: 40px;
+    }
+
+    #content1-2 input {
+        width: 100px;
+        margin-left: 40px;
+    }
+
+    #full {
+        display: flex;
+        flex-direction: column;
+        padding-right: 50px;
+    }
+
+    #full1-1 P {
+        width: 200px;
+        margin-left: 60px;
+    }
+
+    #full {
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+    #full1-1 {
+        padding-left: 50px;
+    }
+
+    #full div ol li {
+        width: 200px;
+    }
+
+    #full2 {
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+    }
+    #full2 p{
+        margin-left: -5px;
+    }
+
+     #full2 div {
+        margin-left: -35px;
+        padding-left:50px;
+     }  
+}
